@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id = "@+id/relativeLayout1"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id = "@+id/sNo"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "Day"
+            android:singleLine = "true"
+            android:textColor="#fc4903"/>
+
+        <TextView
+            android:id = "@+id/product"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "one"
+            android:singleLine = "true"
+            android:textColor="#fcba03"/>
+
+        <TextView
+            android:id = "@+id/category"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "two"
+            android:singleLine = "true"
+            android:textColor="#fcba03"/>
+
+        <TextView
+            android:id = "@+id/price"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "three"
+            android:singleLine = "true"
+            android:textColor="#fcba03"/>
+        <TextView
+            android:id = "@+id/four"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "four"
+            android:singleLine = "true"
+            android:textColor="#fcba03"/>
+        <TextView
+        android:id = "@+id/five"
+        android:layout_width = "0dp"
+        android:layout_height = "wrap_content"
+        android:layout_weight = "2"
+        android:ellipsize = "end"
+        android:padding = "5dp"
+        android:text = "five"
+        android:singleLine = "true"
+            android:textColor="#fcba03"/>
+        <TextView
+            android:id = "@+id/six"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "2"
+            android:ellipsize = "end"
+            android:padding = "5dp"
+            android:text = "six"
+            android:singleLine = "true"
+            android:textColor="#fcba03"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

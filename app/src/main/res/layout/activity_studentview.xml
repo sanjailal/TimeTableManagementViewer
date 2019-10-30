@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".studentview">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--<ScrollView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:textSize="17dp"
+            android:textColor="#fcba03"
+            android:layout_height="wrap_content"
+            android:text="You can view Student Timetable here"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:scrollbarSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_margin="50dp"
+            android:layout_gravity="center"
+            android:onClick="stuimg"
+            android:layout_height="wrap_content"
+            android:text="View"
+            android:textColor="#fcba03"/>
+        <!--</ScrollView>-->
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
